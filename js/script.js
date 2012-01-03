@@ -116,7 +116,7 @@ jQuery.noConflict();
         function list_update(){
             $('#loop').addClass('list').removeClass('grid');
             $('#loop').find('.post').removeAttr('style').unbind('mouseenter').unbind('mouseleave');
-            $('#loop').find('.thumb img').attr({'width': '290', 'height': '290'});
+          //  $('#loop').find('.thumb img').attr({'width': '290', 'height': '290'});
             $.cookie('mode', 'list');
         }
 

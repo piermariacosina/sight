@@ -10,6 +10,8 @@
             <a href="http://digg.com/submit?phase=2&amp;url=<?php the_permalink() ?>&amp;title=<?php the_title(); ?>" target="_blank" class="di" title="Bookmark on Del.icio.us"></a>
             <a href="http://stumbleupon.com/submit?url=<?php the_permalink() ?>&amp;title=<?php echo urlencode(the_title('','', false)) ?>" target="_blank" class="su" title="Share on StumbleUpon"></a>
         </div>
+        
+        
 
         <div class="entry">
             <div <?php post_class('single clear'); ?> id="post_<?php the_ID(); ?>">
